@@ -8,11 +8,9 @@
   
     refs.openModalBtn.addEventListener("click", toggleModal);
     refs.closeModalBtn.addEventListener("click", toggleModal);
-    refs.backdrop.addEventListener("click", toggleModal);
   
     function toggleModal() {
       refs.backdrop.classList.toggle("is-hidden");
       refs.modal.classList.toggle("is-hidden");
-      refs.closeModalBtn.classList.toggle("is-hidden");
     }
   })();

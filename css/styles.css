@@ -208,14 +208,14 @@ section {
   transform: translateY(200px);
   opacity: 0;
 }
-.modal-button { 
+.modal-form__closeBtn { 
   width: 30px;
   height: 30px;
+  border: solid 1px var(--gray-2); 
   background-color: var(--primary-white-color);
-  border-color:var(--gray-1); 
   border-radius: 25px;
   cursor: pointer;
-  transform: translate(490px, 9px);
+  transform: translate(482px, 12px);
 }
 
 .bg-fondo {
